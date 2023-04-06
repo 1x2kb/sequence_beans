@@ -13,7 +13,7 @@ A collection of positive integers can be represented by rows of beads in non-inc
 Write a program in your favorite programming language to obtain the conjugate of a collection of positive integers.
 
 ## Code Breakdown
-It is typical in Rust code to split functionality into a main and lib. The main describing the executable binary and the lib exporting testable code by integration and e2e tests. Neither test type is contained in this repository however Rust conventions are still followed.
+It is typical in Rust code to split functionality into a main and lib, both of which can be found in `src/`. The main describing the executable binary and the lib exporting testable code for integration and e2e tests. Neither test type is contained in this repository however Rust conventions are still followed.
 
 u8 (unsigned 8 bit) was selected as anything beyond 255 will be unreadable but it is more or less arbitrary. Should the count of an individual row exceed 2^8-1 an overflow will be observed giving an incorrect row count in its conjugate form.
 
