@@ -56,7 +56,7 @@ mod get_bean_representation_should {
 
     #[test]
     fn return_correct_orientation_num_gapped_example() {
-        let vec = vec![8, 7, 4, 1];
+        let vec = vec![4, 3, 3, 3, 2, 2, 2, 1];
         let result = get_bean_representation(&vec);
         let expected = vec!["oooo", "ooo", "ooo", "ooo", "oo", "oo", "oo", "o"];
         assert_eq!(result, expected);
