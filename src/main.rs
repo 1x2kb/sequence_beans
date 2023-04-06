@@ -1,8 +1,8 @@
 use sequence_bean;
 
 fn main() {
-    let first_sequence = run_example_1_set();
-    let second_sequence = run_example_2_set();
+    let _first_sequence = run_example_1_set();
+    let _second_sequence = run_example_2_set();
 }
 
 fn run_example_1_set() -> Vec<u8> {
